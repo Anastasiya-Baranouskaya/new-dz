@@ -5,54 +5,76 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="stylesheet" href="./css/modern-normalize.css">
+        <link rel="stylesheet" href="./font/stylesheet.css">
+        <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
-        <header>
-            <a href="/">promomix</a>
-            <nav>
-                <ul>
-                    <button type="button">поиск</button>
-                    <li>
+        <header class="header">
+            <nav class="navigation container">
+                <a class="logo" href="/"> <img src="./images/icons/promomix.svg" alt=""> </a>
+                <ul  class="list">
+                    <li class="list-item">
+                        <img src="./images/icons/search.svg" alt="лупа" width="16px" height="16px"><button type="button">поиск</button>
+                    </li>
+                    <li class="list-item">
                         <a href="tel:84964290900">8 496 429 09 00</a>
                     </li>
-                    <li>
+                    <li class="list-item">
                         <button type="button">оставить заявку</button>
                     </li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section>
-                <h1>
-                    Promomix <br>
-                    рекламное агентство<br>
-                    полного цикла<br>
-                </h1>
-                <ul>
-                    <li>
-                        <a href="/">Facebook</a>
-                    </li>
-                    <li>
-                        <a href="/">Vkontakte</a>
-                    </li>
-                    <li>
-                        <a href="/">Instagram</a>
-                    </li>
-                </ul>
-            
+            <section class="hero">
+                <div class="container">
+                    <h1>
+                        <span>promomix - </span><br>
+                        рекламное агентство<br>
+                        полного цикла<br>
+                    </h1>
+                    <ul class="social-list list">
+                        <li class="list-item">
+                            <a href="/">Facebook</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="/">Vkontakte</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="/">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
             </section>
-            <section>
+            <section class="features">
                 <h2>услуги</h2>
                 <p> ключевые направления</p>
-                <ul>
-                    <li> <a href="/">загружная реклама</a></li>
-                    <li> <a href="/">Широкоформатная печать</a></li>
-                    <li> <a href="/">Рекламная полиграфия</a></li>
-                    <li> <a href="/">Сувенирная продукция </a></li>
-                    <li> <a href="/">Внутренняя реклама </a></li>
-                    <li> <a href="/">Брендирование одежды </a></li>
-                    <li> <a href="/">Брендирование транспорта </a></li>
-                    <li> <a href="/">Все услуги </a></li>
+                <ul class="list">
+                    <li class="list-item>
+                           <a href="/"><img src="./images/svg/reklam-around.svg" alt="">загружная реклама</a>
+                        </li>
+                    <li class="list-item> 
+                        <a href="/"><img src="./images/svg/reklam-around.svg" alt="">Широкоформатная печать</a>
+                    </li>
+                    <li class="list-item> 
+                        <a href="/"><img src="./images/svg/reklam-around.svg" alt="">Рекламная полиграфия</a>
+                    </li>
+                    <li class="list-item> 
+                        <a href="/"><img src="./images/svg/reklam-around.svg" alt="">Сувенирная продукция </a>
+                    </li>
+                    <li class="list-item> 
+                        <a href="/"><img src="./images/svg/reklam-around.svg" alt="">Внутренняя реклама </a>
+                    </li>
+                    <li class="list-item> 
+                        <a href="/"><img src="./images/svg/reklam-around.svg" alt="">Брендирование одежды </a>
+                    </li>
+                    <li class="list-item> 
+                        <a href="/"><img src="./images/svg/reklam-around.svg" alt="">Брендирование транспорта </a>
+                    </li>
+                    <li class="list-item> 
+                        <a href="/"><img src="./images/svg/reklam-around.svg" alt="">Все услуги </a>
+                    </li>
                 </ul>
             </section>
             <section>
@@ -60,7 +82,7 @@
                 <p>Создаем рекламу <br>
                     и формируем имидж<br>
                     компаний</p>
-                <ul>
+                <ul class="list">
                     <li>
                         <p> 18+</p>
                         <p> лет опыта на рекламном рынке</p>
@@ -84,7 +106,7 @@
             <section>
                 <h2>наши работы</h2>
                 <p>Воплощаем идеи</p>
-                <ul>
+                <ul class="list">
                     <li>
                         <div>
                             <img src="./images/img-index/starbacks.jpg" alt="printing starbacks" height="370" width="570">
@@ -135,7 +157,7 @@
                 <h2>Наши партнёры</h2>
                 <p> 400+ компаний <br>
                 доверяют нам</p>
-                <ul>
+                <ul class="list">
                     <li> <a href=""> <img src="./images/svg/puma.svg" alt="puma"></a></li>
                     <li> <a href=""> <img src="./images/svg/tinkoff.svg" alt="tinkoff"></a></li>
                     <li> <a href=""> <img src="./images/svg/ashan.svg" alt="ashan"></a></li>
@@ -151,7 +173,7 @@
             <section>
                 <h2>статьи и новости</h2>
                 <p> Все самое интересное</p>
-                <ul>
+                <ul class="list">
                     <li>
                         <p>новость</p>
                         <div>
@@ -207,7 +229,7 @@
                     <button type="button">оставить заявку</button>
                 </div>
                 <nav>
-                    <ul>
+                    <ul class="list">
                         <li> <a href="./html/about.html">О компании</a></li>
                         <li> <a href="./html/features.html">Услуги</a></li>
                         <li> <a href="./html/works.html">Наши работы</a></li>
@@ -228,7 +250,7 @@
             </div>
             <div>
                 <p> &copy;2011 - 2020 Promomix</p>
-                <ul>
+                <ul class="list">
                     <li>
                         <a href="/">Facebook</a>
                     </li>
