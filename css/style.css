@@ -1,0 +1,120 @@
+:root {
+  --main-font: 'TT Norms', sans-serif;
+  --main-red: #e52322;
+  --main-grey: #b0b6bf;
+  --main-black: #1f2c37;
+  --main-white: #ffffff;
+}
+
+body {
+  color: var(--main-black);
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  width: 1600px;
+}
+button {
+  text-transform: inherit;
+  font-weight: inherit;
+}
+button:hover,
+button:focus,
+a:focus,
+a:hover {
+  color: var(--main-red);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  border: 1px solid;
+}
+
+.navigation {
+  display: flex;
+}
+
+.logo,
+.list-item a,
+.list-item button {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.navigation .list {
+  align-items: center;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-item:not(:last-child) {
+  margin-right: 120px;
+}
+
+.list-item button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.navigation .list-item img {
+  margin-right: 12px;
+}
+
+.navigation .list-item:first-child {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.navigation .list-item:last-child {
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.navigation .list-item:nth-child(2) {
+  font-size: 15px;
+}
+
+.hero {
+  /* padding-left: 100px; */
+  background: url(../images/img-index/video.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto;
+}
+
+.hero .container {
+  padding-top: 568px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.hero h1 {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 1.2;
+  color: var(--main-white);
+  padding-bottom: 40px;
+}
+
+.hero h1 span {
+  color: var(--main-red);
+  text-transform: capitalize;
+}
+.social-list {
+  color: var(--main-white);
+  display: flex;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.social-list li:not(:last-child) {
+  margin-right: 50px;
+}
