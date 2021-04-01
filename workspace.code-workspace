@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "font",
+			"path": "..\\..\\..\\Downloads\\font"
+		},
+		{
+			"name": "new-dz",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "new-dz"
+	}
+}
