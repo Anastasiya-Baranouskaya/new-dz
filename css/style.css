@@ -438,7 +438,12 @@ a:focus .service-item {
 .footer .container {
   padding-top: 100px;
   padding-bottom: 100px;
-  /* margin-left: 100px; */
 }
-
+.prefooter .container {
+  padding-top: 43px;
+  padding-bottom: 43px;
+}
+.prefooter .list {
+  margin: 0;
+}
 /* секция  футер 2*/
