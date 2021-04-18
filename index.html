@@ -7,25 +7,47 @@
         <title>Document</title>
         <link rel="stylesheet" href="./css/modern-normalize.css">
         <link rel="stylesheet" href="./font/stylesheet.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/container.css">
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
         <header class="header">
             <nav class="navigation container">
-                <a class="logo" href="/"> <img src="./images/icons/promomix.svg" alt=""> </a>
-                <ul  class="list">
-                    <li class="list-item">
-                        <img src="./images/icons/search.svg" alt="лупа" width="16px" height="16px"><button type="button">поиск</button>
-                    </li>
-                    <li class="list-item">
-                        <a href="tel:84964290900">8 496 429 09 00</a>
-                    </li>
-                    <li class="list-item button-application">
-                        <button type="button" >оставить заявку</button>
-                    </li>
-                </ul>
+                <div class="hamburger-menu">
+
+                    <input type="checkbox" name="menu" id="menu__toggle">
+                    <label for="menu__toggle" class="menu__btn">
+                        <span class="span"></span>
+                    </label>
+                    <ul class="menu-list">
+                        <li class=""> <a href="./html/about.html" class="list-all">О компании</a></li>
+                        <li class=""> <a href="./html/features.html" class="list-all">Услуги</a></li>
+                        <li class=""> <a href="./html/works.html" class="list-all">Наши работы</a></li>
+                        <li class=""> <a href="./html/services.html" class="list-all">Сервис</a></li>
+                        <li class=""> <a href="./html/about.html" class="list-all">Комплексные решения</a></li>
+                        <li class=""> <a href="./html/posts.html" class="list-all">Статьи и новости</a></li>
+                        <li class=""> <a href="./html/contacts.html " class="list-all"> Контакты</a></li>
+                    </ul>
+                </div>    
+                    <a class="logo" href="/"> <img src="./images/icons/promomix.svg" alt=""> </a>
+                    <ul  class="list">
+                        <li class="list-item">
+                            <img src="./images/icons/search.svg" alt="лупа" width="16px" height="16px"><button type="button">поиск</button>
+                        </li>
+                        <li class="list-item">
+                            <a href="tel:84964290900">8 496 429 09 00</a>
+                        </li>
+                        <li class="list-item button-application">
+                            <button type="button" >оставить заявку</button>
+                        </li>
+                    </ul>
+                
+                
+                
             </nav>
         </header>
+    
         <main>
             <section class="hero">
                 <div class="container">

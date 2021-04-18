@@ -1,0 +1,90 @@
+/* заявка */
+.proposal .container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.proposal-block {
+  width: calc((100% - 60px) / 2);
+  padding-right: 260px;
+}
+.proposal-form {
+  width: calc((100% - 60px) / 2);
+}
+.proposal-block__title {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 37px;
+  line-height: 1.2;
+  color: #1f2c37;
+  letter-spacing: 0;
+  padding-bottom: 37px;
+}
+.proposal-block__description {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.4;
+}
+.proposal-form input,
+.proposal-form textarea {
+  display: block;
+  border: 0;
+  width: 100%;
+  border-bottom: 1px solid var(--main-grey);
+  padding-bottom: 15px;
+  margin-top: 47px;
+}
+.proposal-form input::placeholder {
+  color: var(--main-black);
+}
+.proposal-form textarea::placeholder {
+  color: var(--main-black);
+}
+.proposal-form input:first-child {
+  margin-top: 0;
+}
+.proposal-form input[type='file'] {
+  visibility: hidden;
+  margin-top: 0;
+}
+.proposal-form label {
+  display: block;
+  width: 133px;
+  margin-top: 47px;
+  padding-bottom: 9px;
+  margin-bottom: 3px;
+  border-bottom: 1px solid #1f2c37;
+}
+.proposal-form textarea {
+  resize: none;
+}
+.proposal-form button {
+  padding: 22px 70px;
+  font-weight: 500;
+  background: transparent;
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  border: 1px solid var(--main-red);
+}
+.proposal-form button:hover,
+.proposal-form button:focus {
+  color: var(--main-white);
+  background-color: var(--main-red);
+}
+.proposal-form__div {
+  display: flex;
+  align-items: center;
+}
+.proposal-form__span {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--main-grey);
+  margin-left: 60px;
+}
