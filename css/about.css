@@ -1,3 +1,54 @@
+/* heder */
+.logo,
+.list-item a,
+.list-item button {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation .list {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-item:not(:last-child) {
+  margin-right: 120px;
+}
+
+.list-item button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.navigation .list-item img {
+  margin-right: 12px;
+}
+
+.navigation .list-item:first-child {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.navigation .list-item:last-child {
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.navigation .list-item:nth-child(2) {
+  font-size: 15px;
+}
+.list-item a {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
 /* заявка */
 .proposal .container {
   display: flex;
