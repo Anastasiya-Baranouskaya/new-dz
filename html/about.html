@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/container.css" />
     <link rel="stylesheet" href="../css/about.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
   </head>
   <body>
     <a href="../index.html"></a>
@@ -39,50 +41,80 @@
     </header>
 
     <main>
-      <section>
-        <div class="container">
-          <h1>О компании</h1>
-          <p>
-            Promomix – одна из крупнейших компаний на рекламном рынке
-            Подмосковья.
-          </p>
+      <!-- секция о компании -->
+      <section class="company">
+        <div class="container company__container">
+          <div class="div__container">
+            <h1 class="title company__title">О компании</h1>
+
+            <p class="text company__text">
+              Promomix – одна из крупнейших компаний на рекламном рынке
+              Подмосковья.
+            </p>
+          </div>
           <img src="../images/about/about-compani.jpg" alt="about-compani" />
-          <ul>
-            <li>
-              <img src="./images/about/18+.svg" alt="18+" />
-              <p>
-                лет опыта на<br />
-                рекламном рынке
-              </p>
-            </li>
-            <li>
-              <img src="./images/about/250+.svg" alt="250+" />
-              <p>
-                реализованных<br />
-                проектов
-              </p>
-            </li>
-            <li>
-              <img src="./images/about/37.svg" alt="37" />
-              <p>
-                квалифицированных<br />
-                сотрудников
-              </p>
-            </li>
-            <li>
-              <img src="./images/about/14+.svg" alt="14+" />
-              <p>
-                профессионального<br />
-                оборудования
-              </p>
-            </li>
-          </ul>
+          <div>
+            <ul class="company__list">
+              <li class="company__list--pading">
+                <img
+                  class="company__img"
+                  src="../images/about/18+.svg"
+                  width="110px"
+                  height="72px"
+                  alt="18+"
+                />
+                <p class="company__text line company__text--size">
+                  лет опыта на рекламном рынке
+                </p>
+              </li>
+              <li class="company__list--pading">
+                <img
+                  class="company__img"
+                  src="../images/about/250+.svg"
+                  width="175px"
+                  height="72px"
+                  alt="250+"
+                />
+                <p class="company__text line company__text--size">
+                  реализованных<br />
+                  проектов
+                </p>
+              </li>
+              <li class="company__list--pading">
+                <img
+                  class="company__img"
+                  src="../images/about/37.svg"
+                  width="70px"
+                  height="72px"
+                  alt="37"
+                />
+                <p class="company__text line company__text--size">
+                  квалифицированных<br />
+                  сотрудников
+                </p>
+              </li>
+              <li class="company__list--pading">
+                <img
+                  class="company__img"
+                  src="../images/about/14+.svg"
+                  width="109px"
+                  height="72px"
+                  alt="14+"
+                />
+                <p class="company__text line company__text--size">
+                  профессионального<br />
+                  оборудования
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
-      <section>
+      <!-- секция реклама -->
+      <section class="marketing">
         <div class="container">
           <h2>Доверьте рекламу профессионалам</h2>
-          <p>
+          <p class="marketing__text">
             Мы создаем не просто рекламу, а формируем уникальный имидж наших
             клиентов. Предоставляем широкий спектр услуг – от создания
             фирменного стиля до наружной рекламы. Благодаря современному
@@ -93,76 +125,157 @@
         </div>
       </section>
 
-      <section>
+      <section class="features">
         <div class="container">
           <h2>услуги</h2>
-          <p>ключевые направления</p>
-          <ul>
-            <li><a href="/">загружная реклама</a></li>
-            <li><a href="/">Широкоформатная печать</a></li>
-            <li><a href="/">Рекламная полиграфия</a></li>
-            <li><a href="/">Сувенирная продукция </a></li>
-            <li><a href="/">Внутренняя реклама </a></li>
-            <li><a href="/">Брендирование одежды </a></li>
-            <li><a href="/">Брендирование транспорта </a></li>
-            <li><a href="/">Все услуги </a></li>
+          <h3>Ключевые <span>направления</span></h3>
+          <ul class="list">
+            <li class="list-features">
+              <a href="/" class="link-icon">
+                <svg class="icon">
+                  <use href="../images/sprite.svg#icon-box"></use>
+                </svg>
+                <p>
+                  Наружная <br />
+                  реклама
+                </p>
+              </a>
+            </li>
+            <li class="list-features">
+              <a href="/" class="link-icon">
+                <svg class="icon">
+                  <use href="../images/sprite.svg#icon-reklam-around"></use>
+                </svg>
+                <p>
+                  Широкоформатная <br />
+                  печать
+                </p>
+              </a>
+            </li>
+            <li class="list-features">
+              <a href="/" class="link-icon">
+                <svg class="icon">
+                  <use href="../images/sprite.svg#icon-copy"></use>
+                </svg>
+                <p>
+                  Рекламная <br />
+                  полиграфия
+                </p>
+              </a>
+            </li>
+            <li class="list-features">
+              <a href="/" class="link-icon">
+                <svg class="icon">
+                  <use href="../images/sprite.svg#icon-souvenir"></use>
+                </svg>
+                <p>
+                  Сувенирная <br />
+                  продукция
+                </p>
+              </a>
+            </li>
+            <li class="list-features">
+              <a href="/" class="link-icon">
+                <svg class="icon">
+                  <use href="../images/sprite.svg#icon-internal"></use>
+                </svg>
+                <p>
+                  Внутренняя <br />
+                  реклама
+                </p>
+              </a>
+            </li>
+            <li class="list-features">
+              <a href="/" class="link-icon">
+                <svg class="icon">
+                  <use href="../images/sprite.svg#icon-t-shirt"></use>
+                </svg>
+                <p>
+                  Брендирование <br />
+                  одежды
+                </p>
+              </a>
+            </li>
+            <li class="list-features">
+              <a href="/" class="link-icon">
+                <svg class="icon">
+                  <use href="../images/sprite.svg#icon-bussvg"></use>
+                </svg>
+                <p>
+                  Брендирование <br />
+                  транспорта
+                </p>
+              </a>
+            </li>
+            <li class="list-features">
+              <a href="/" class="link-icon">
+                <svg class="icon">
+                  <use href="../images/sprite.svg#icon-all-services"></use>
+                </svg>
+                <p>Все услуги</p>
+              </a>
+            </li>
           </ul>
         </div>
       </section>
-      <section>
+      <!-- секция история -->
+      <section class="history">
         <div class="container">
           <h2>История</h2>
-          <p>
-            18+ лет опыта<br />
-            на рекламном<br />
-            рынке
-          </p>
-          <ul>
-            <li>
-              <img src="./images/svg/Group.svg" alt="Group" />
-              <h3>2011</h3>
-              <p>
-                Запустили цеха по производству рекламных материалов для
-                обеспечения потребностей наших клиентов в полном цикле рекламных
-                услуг. Росли и развивались, постоянно пополняя ассортимент
-                рекламной продукции.
-              </p>
-            </li>
-            <li>
-              <img src="./images/svg/Group.svg" alt="Group" />
-              <h3>2015</h3>
-              <p>
-                Провели модернизацию наших цехов. Закупили самые современные
-                станки и принтеры. Благодаря высокому качеству печати привлекли
-                множество новых клиентов и стали востребованной компанией на
-                рекламном рынке.
-              </p>
-            </li>
-            <li>
-              <img src="./images/svg/Group.svg" alt="Group" />
-              <h3>2017</h3>
-              <p>
-                Приобрели дополнительное оборудование, что позволило значительно
-                расширить ассортимент изготавливаемой продукции. Мощный рост
-                направления нашей деятельности привел к разделению наружной
-                рекламы и производства.
-              </p>
-            </li>
-            <li>
-              <img src="./images/svg/Group.svg" alt="Group" />
-              <h3>2019</h3>
-              <p>
-                На сегодняшний день компания Promomix входит в число наиболее
-                энергично развивающихся рекламно-производственных компаний
-                Подмосковья. В наших цехах работают станки для производства
-                практически всех видов рекламной продукции.
-              </p>
-            </li>
-          </ul>
-          <img src="./images/about/histori.jpg" alt="computer" />
+          <div class="div--flex">
+            <h3 class="history__title">
+              <span>18+</span> лет опыта на рекламном рынке
+            </h3>
+            <ul class="list list--flex">
+              <li class="history__list">
+                <!-- <img src="../images/svg/Group.svg" width="61px" alt="Group" /> -->
+                <h3 class="list__title"><span>2011</span></h3>
+                <p class="history__text">
+                  Запустили цеха по производству рекламных материалов для
+                  обеспечения потребностей наших клиентов в полном цикле
+                  рекламных услуг. Росли и развивались, постоянно пополняя
+                  ассортимент рекламной продукции.
+                </p>
+              </li>
+              <li class="history__list">
+                <!-- <img src="../images/svg/Group.svg" alt="Group" /> -->
+                <h3 class="list__title"><span>2015</span></h3>
+                <p class="history__text">
+                  Провели модернизацию наших цехов. Закупили самые современные
+                  станки и принтеры. Благодаря высокому качеству печати
+                  привлекли множество новых клиентов и стали востребованной
+                  компанией на рекламном рынке.
+                </p>
+              </li>
+              <li class="history__list">
+                <!-- <img src="../images/svg/Group.svg" alt="Group" /> -->
+                <h3 class="list__title"><span>2017</span></h3>
+                <p class="history__text">
+                  Приобрели дополнительное оборудование, что позволило
+                  значительно расширить ассортимент изготавливаемой продукции.
+                  Мощный рост направления нашей деятельности привел к разделению
+                  наружной рекламы и производства.
+                </p>
+              </li>
+              <li class="history__list">
+                <!-- <img src="../images/svg/Group.svg" alt="Group" /> -->
+                <h3 class="list__title"><span>2019</span></h3>
+                <p class="history__text">
+                  На сегодняшний день компания Promomix входит в число наиболее
+                  энергично развивающихся рекламно-производственных компаний
+                  Подмосковья. В наших цехах работают станки для производства
+                  практически всех видов рекламной продукции.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <img src="../images/about/histori.jpg" alt="computer" />
+          </div>
         </div>
       </section>
-      <section>
+      <!-- секция оборудование -->
+      <section class="equipment">
         <div class="container">
           <h2>Оборудование</h2>
           <ul>
@@ -295,43 +408,44 @@
       </section>
     </main>
 
-    <footer class="">
-      <div class="footer-top">
+    <!-- футер -->
+    <footer class="section">
+      <div class="footer__top">
         <div class="container">
-          <div class="container-left">
-            <a href="/" class="title-footer">
+          <div class="container__left">
+            <a href="/" class="title__footer">
               <span>Promomix -</span> рекламное агентство<br />
               полного цикла</a
             >
             <button type="button" class="button">оставить заявку</button>
           </div>
-          <div class="container-right">
-            <div class="container-navigation">
+          <div class="container__right">
+            <div class="container__navigation">
               <nav class="navigation">
                 <ul class="list">
-                  <li class="list-navigation">
+                  <li class="list__navigation">
                     <a href="./html/about.html" class="list-all">О компании</a>
                   </li>
-                  <li class="list-navigation">
+                  <li class="list__navigation">
                     <a href="./html/features.html" class="list-all">Услуги</a>
                   </li>
-                  <li class="list-navigation">
+                  <li class="list__navigation">
                     <a href="./html/works.html" class="list-all">Наши работы</a>
                   </li>
-                  <li class="list-navigation">
+                  <li class="list__navigation">
                     <a href="./html/services.html" class="list-all">Сервис</a>
                   </li>
-                  <li class="list-navigation">
+                  <li class="list__navigation">
                     <a href="./html/about.html" class="list-all"
                       >Комплексные решения</a
                     >
                   </li>
-                  <li class="list-navigation">
+                  <li class="list__navigation">
                     <a href="./html/posts.html" class="list-all"
                       >Статьи и новости</a
                     >
                   </li>
-                  <li class="list-navigation">
+                  <li class="list__navigation">
                     <a href="./html/contacts.html " class="list-all">
                       Контакты</a
                     >
@@ -339,21 +453,20 @@
                 </ul>
               </nav>
             </div>
-            <div class="container-subscribe">
-              <p>
+            <div class="container__subscribe">
+              <p class="">
                 Чтобы быть в курсе всех акций и новых событий, подпишитесь на
                 нашу рассылку.
               </p>
-              <form>
+              <form class="form-subscribe">
                 <input type="email" placeholder="Ваш e-mail" />
-                <!-- <input type="submit" placeholder="&#8594;"> -->
-                <button type="submit">&#8594;</button>
+                <button class="button-subscribe" type="submit"></button>
               </form>
             </div>
           </div>
         </div>
       </div>
-      <div class="footer-botton">
+      <div class="footer__botton">
         <div class="container">
           <p>&copy;2011 - 2020 Promomix</p>
           <ul class="list">
